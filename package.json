@@ -1,0 +1,22 @@
+{
+  "name": "top-streams",
+  "version": "1.0.0",
+  "description": "A web scraper for Spotify's top streamed songs and playlist creation.",
+  "type": "module",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js",
+    "auth": "node auth.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["spotify", "scraper", "playlist", "top-streams"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "open": "^10.1.0",
+    "querystring": "^0.2.1"
+  }
+}
